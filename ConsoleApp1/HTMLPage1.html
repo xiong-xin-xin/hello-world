@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+</body>
+</html>
+
+
+<script>
+
+    var a = "[xxxxx][122222][122222]qweqwe[122222]";
+    var reg = /(\[.*?\])/g;
+
+    var b = a.match(reg)
+
+    document.write(a.replace(reg,"@#"));
+</script>

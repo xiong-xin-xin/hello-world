@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<autofac defaultAssembly="AutofacDemo">
+  <components name="set1">
+    <type>AutofacDemo.Cat,AutofacDemo</type>
+    <services key="Cat" name="Cat" type="AutofacDemo.IAnimal" />
+    <injectProperties>true</injectProperties>
+  </components>
+  <components name="set2">
+    <type>AutofacDemo.Dog,AutofacDemo</type>
+    <services key="Dog" name="Dog" type="AutofacDemo.IAnimal" />
+    <injectProperties>true</injectProperties>
+  </components>
+</autofac>
